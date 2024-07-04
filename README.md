@@ -5,4 +5,4 @@ Este repositório contém o código fonte do meu portfólio pessoal. Aqui estão
 - CSS
 
 ### Como Visualizar:
-Para visualizar o portfólio localmente, basta clonar este repositório e abrir os arquivos HTML em seu navegador preferido.****
+Para visualizar o portfólio localmente, basta clonar este repositório e abrir os arquivos HTML em seu navegador.
