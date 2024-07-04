@@ -1,0 +1,136 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #150c7c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; 
+}
+
+#jarlison {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #150c7c;
+    text-decoration: none;
+    font-size: 1.2rem; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #150c7c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Estilos específicos para cada página */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para telas menores que 768px de largura (tablets e celulares em modo paisagem) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+    #jarlison {
+        width: 120px; 
+        height: 120px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem; 
+    }
+}
+
+/* Estilos para telas menores que 480px de largura (celulares em modo retrato) */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 0;
+    }
+
+    #jarlison {
+        width: 100px;   
+        height: 100px; 
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+/* Estilos para quando o zoom estiver acima de 150% */
+@media (min-resolution: 1.5dppx) {
+    header h1 {
+        font-size: 3rem; /* Aumenta o tamanho do título */
+    }
+
+    #jarlison {
+        width: 200px; /* Aumenta o tamanho da imagem */
+        height: 200px; /* Aumenta o tamanho da imagem */
+    }
+
+    nav ul li a {
+        font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    }
+
+    main {
+        padding: 30px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
+
