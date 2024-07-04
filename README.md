@@ -1,4 +1,4 @@
-# Portifolio_Programa-o_Web
+# Portfolio_Programa-o_Web
 Olá sou Járlison Neves e neste repositório contém o código fonte do meu portfólio pessoal. Aqui estão algumas informações sobre o que você encontrará:  
 - Página principal com uma breve descrição sobre mim e meu trabalho.
 - Página de filmes favoritos, onde listo alguns dos meus filmes preferidos.
